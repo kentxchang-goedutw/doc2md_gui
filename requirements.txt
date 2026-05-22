@@ -1,0 +1,9 @@
+customtkinter>=5.2.0
+markitdown[all]>=0.1.0
+
+# 音訊轉文字（二選一）
+# 方案 A：本機 Whisper，免費、不需 API Key（另需安裝 ffmpeg）
+# pip install openai-whisper
+#
+# 方案 B：OpenAI API，需申請 API Key
+# pip install openai
